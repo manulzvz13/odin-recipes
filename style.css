@@ -1,0 +1,39 @@
+/* 
+    Color palette:
+    -   626F47
+    -   A4B465
+    -   F5ECD5
+    -   F0BB78
+
+    Font styles:
+    -   Courier New (titles, subtitles)
+    -   Verdana (text)
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5ECD5;
+}
+
+.page-title {
+    font-family: "Courier New";
+    font-size: 40px;
+    color: #F0BB78;
+}
+
+.recipes-index {
+    padding: 20px;
+}
+
+.recipe {
+    font-family: Verdana;
+    font-weight: 800;
+    color: #A4B465;
+}
