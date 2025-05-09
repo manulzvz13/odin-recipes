@@ -82,3 +82,25 @@ li {
 .recipe:hover {
     color: #626F47;
 }
+
+/* 
+Adding emojis as bullets via @counter-style is currently not supported in all browsers
+
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F32F" "\1F32F" "\1F35C"; 
+    suffix: " ";
+}
+
+.recipes-index.lasagna {
+    list-style-type: repeating-emoji;
+    
+}
+
+.recipes-index.burrito {
+    list-style-type: repeating-emoji;
+}
+
+.recipes-index.parmesan-garlic-ramen {
+    list-style-type: repeating-emoji;
+} */
